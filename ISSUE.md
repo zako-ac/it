@@ -41,3 +41,7 @@ Discord:
 d:{user id}
 ```
 Cache the username, nickname, avatar to Redis.
+
+# AI-generated summary?
+for issue new or Create Issue etc, make a temp channel and send user the button to the channel.
+Then use the channel to generate the summary and have conversation with the user(i.e. dev only). After the user confirm the summary, post the summary to the issue channel and delete the temp channel.
